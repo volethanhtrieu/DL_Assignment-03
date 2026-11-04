@@ -6,12 +6,13 @@
 Ho Chi Minh City University of Technology - VNU-HCM, Faculty of Computer Science and Engineering.  
 Instructor: **Lê Thành Sách**. M1 due **18 November 2026, 23:59 GMT+7**.
 
-| Member | Student ID | Role |
-|---|---|---|
-| Hoàng Trọng Huy Minh | 2452743 | Member |
-| Võ Lê Thành Triệu | 2453297 | Team leader |
-| Nguyễn Huỳnh Nam Quốc | 2453089 | Assignment 3 lead |
+## Project Authorship & Individual Contribution
 
+| Member Name | Student ID | Assignment 03 Contribution (%) | Role & Responsibilities |
+|---|---|---:|---|
+| Hoàng Trọng Huy Minh | 2452743 | **0%** | Assignment 1 lead. |
+| Võ Lê Thành Triệu | 2453297 | **0%** | Group team leader and Assignment 2 lead. |
+| **Nguyễn Huỳnh Nam Quốc** | **2453089** | **100%** | **Assignment 3 sole academic contributor:** dataset research, validation, remediation, proposal, reproducibility, documentation and verification. |
 ### Current scope
 
 M1 dataset/proposal and audit evidence are prepared. **No model training, M2/M3 results, checkpoints, slides/video, LMS submission or completed student final review are claimed.** The group reports prior dataset approval was waived; this is not a formal approval decision.
