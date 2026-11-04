@@ -1,0 +1,66 @@
+{
+  "dataset_variant": "crisismmd5-mirror-remediation-20261104-v1",
+  "date_utc": "2026-11-04",
+  "primary_protocol": "filtered_original",
+  "version_scope": "custom five-class mirror-derived remediation; NOT an authenticated copy of original agreed archive",
+  "source_revisions": {
+    "QCRI/CrisisMMD": "10a5626ba112ab9c50369c473a2062bcf205d708",
+    "pranitchawla/crisismmd-mteb": "a935fda3cee8a5250746a8d1d6278214d615cc89"
+  },
+  "original_archive_access": "403 in original audit; not retried in remediation; equivalence unverified",
+  "license": "CC BY-NC-SA 4.0; inherited primary license evidence, no additional permissions inferred",
+  "row_exclusions": {
+    "annotation_discrepancies": 7,
+    "verified_placeholder_rows": 9,
+    "union_quarantined": 16
+  },
+  "no_relabelling": true,
+  "labels_in_id_order": [
+    "affected_individuals",
+    "infrastructure_and_utility_damage",
+    "rescue_volunteering_or_donation_effort",
+    "other_relevant_information",
+    "not_humanitarian"
+  ],
+  "group_keys": [
+    "tweet_id",
+    "image_sha256",
+    "pixel_sha256",
+    "raw_text_sha256",
+    "normalized_text_sha256"
+  ],
+  "group_edges": "Transitive connected components across all original rows: identical nonempty keys + 81 visually confirmed duplicate/asset-variant candidate edges. Quarantine applied after grouping.",
+  "normalized_text_rule": "HTML unescape; Unicode NFKC; casefold; strip URL, leading RT mention prefix and all @mentions; join Unicode word tokens. Identical model-input text is conservatively grouped, not necessarily a duplicated source post.",
+  "filtered_original_rule": "Exclude quarantine; for each base component retain only original rows from highest-priority eligible split test > dev > train. Do not move records or relabel. No seed needed.",
+  "secondary_guard_policy": "Additionally union all 164 pHash<=4 candidate edges inside an original split (25 already connected,139 newly constraining). These were not individually visually adjudicated and may merge distinct graphics; they are conservative isolation guards ONLY for secondary repartition.",
+  "secondary_partition": {
+    "seed": 20261104,
+    "target_ratios": {
+      "train": 0.7,
+      "dev": 0.15,
+      "test": 0.15
+    },
+    "algorithm": "rare/large-first greedy normalized class/size objective, deterministic SHA256 seed ties; up to 8 single-component improvement passes",
+    "objective": "sum(((class_count-target)/target)^2) + 0.2*sum(((split_size-target_size)/target_size)^2)",
+    "local_improvement_passes": 2,
+    "local_improvement_moves": 10,
+    "final_objective": 0.0015017707703543816,
+    "no_model_outcomes_used": true,
+    "single_seed_only": true
+  },
+  "cross_candidate_review": {
+    "duplicate": 70,
+    "similar_distinct": 38,
+    "placeholder_asset": 15,
+    "duplicate_asset_variant": 11
+  },
+  "leakage_scope": "Zero observed cross-split identity or declared must-link leakage under cached exact/normalized hashes, tweet entities and reviewed/guarded pHash candidates. No claim to detect all semantic, cropped, or pHash>4 duplicates.",
+  "data_and_training": "No data downloads, relabels, training, proposal, repository or website writes.",
+  "inherited_checks": "Original image decode, image-content hashes, pair/source joins and pair lengths reused; normalization and new split/content invariants checked here.",
+  "original_evidence_files_preserved": 79,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

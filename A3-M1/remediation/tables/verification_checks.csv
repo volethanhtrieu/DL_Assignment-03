@@ -1,0 +1,52 @@
+protocol,check,violations,unit,status,note
+filtered_original,duplicate_row_id,0,rows,PASS,
+filtered_original,duplicate_image_id,0,rows,PASS,
+filtered_original,cross_split_tweet_id,0,groups,PASS,
+filtered_original,cross_split_image_sha256,0,groups,PASS,
+filtered_original,cross_split_pixel_sha256,0,groups,PASS,
+filtered_original,cross_split_raw_text_sha256,0,groups,PASS,
+filtered_original,cross_split_normalized_text_sha256,0,groups,PASS,
+filtered_original,cross_split_group_id,0,groups,PASS,
+filtered_original,reviewed_visual_duplicate_cross_split,0,candidate_edges,PASS,
+filtered_original,within_original_split_phash_candidate_cross_split,0,candidate_edges,PASS,Secondary protocol conservatively groups these candidates; this is not a visual-duplicate claim.
+filtered_original,cached_decode_ok,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+filtered_original,cached_empty_text,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+filtered_original,cached_tweet_image_id_mismatch,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+filtered_original,cached_embedded_filename_mismatch,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+filtered_original,cached_text_differs_from_primary,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+filtered_original,cached_source_path_id_mismatch,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+filtered_original,cached_source_labels_agree,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+filtered_original,cached_structurally_valid,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+filtered_original,primary_annotation_join_not_unique,0,rows,PASS,
+filtered_original,target_not_matching_primary_modalities,0,rows,PASS,
+filtered_original,invalid_label,0,rows,PASS,
+filtered_original,missing_class_in_split,0,split_class_cells,PASS,
+filtered_original,changed_original_label,0,rows,PASS,
+filtered_original,changed_original_image_hash,0,rows,PASS,
+filtered_original,empty_normalized_text,0,rows,PASS,
+filtered_original,changed_original_split,0,rows,PASS,
+group_repartition,duplicate_row_id,0,rows,PASS,
+group_repartition,duplicate_image_id,0,rows,PASS,
+group_repartition,cross_split_tweet_id,0,groups,PASS,
+group_repartition,cross_split_image_sha256,0,groups,PASS,
+group_repartition,cross_split_pixel_sha256,0,groups,PASS,
+group_repartition,cross_split_raw_text_sha256,0,groups,PASS,
+group_repartition,cross_split_normalized_text_sha256,0,groups,PASS,
+group_repartition,cross_split_group_id,0,groups,PASS,
+group_repartition,reviewed_visual_duplicate_cross_split,0,candidate_edges,PASS,
+group_repartition,within_original_split_phash_candidate_cross_split,0,candidate_edges,PASS,Secondary protocol conservatively groups these candidates; this is not a visual-duplicate claim.
+group_repartition,cached_decode_ok,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+group_repartition,cached_empty_text,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+group_repartition,cached_tweet_image_id_mismatch,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+group_repartition,cached_embedded_filename_mismatch,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+group_repartition,cached_text_differs_from_primary,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+group_repartition,cached_source_path_id_mismatch,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+group_repartition,cached_source_labels_agree,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+group_repartition,cached_structurally_valid,0,rows,PASS,Inherited row-level measurement selected by exact row_id; no new image-decode audit.
+group_repartition,primary_annotation_join_not_unique,0,rows,PASS,
+group_repartition,target_not_matching_primary_modalities,0,rows,PASS,
+group_repartition,invalid_label,0,rows,PASS,
+group_repartition,missing_class_in_split,0,split_class_cells,PASS,
+group_repartition,changed_original_label,0,rows,PASS,
+group_repartition,changed_original_image_hash,0,rows,PASS,
+group_repartition,empty_normalized_text,0,rows,PASS,

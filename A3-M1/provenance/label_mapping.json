@@ -1,0 +1,16 @@
+{
+  "labels_in_id_order": [
+    "affected_individuals",
+    "infrastructure_and_utility_damage",
+    "rescue_volunteering_or_donation_effort",
+    "other_relevant_information",
+    "not_humanitarian"
+  ],
+  "merge_after_agreement": {
+    "injured_or_dead_people": "affected_individuals",
+    "missing_or_found_people": "affected_individuals",
+    "vehicle_damage": "infrastructure_and_utility_damage"
+  },
+  "agreement_rule": "source text_human == image_human BEFORE merging; authors agreed archive remains unverified",
+  "do_not_substitute": "Do not filter on QCRI humanitarian JSON label alone, or agree only after merging."
+}

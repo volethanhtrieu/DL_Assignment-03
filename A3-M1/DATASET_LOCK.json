@@ -1,0 +1,35 @@
+{
+  "dataset_version": "crisismmd5-mirror-remediation-20261104-v1",
+  "primary_protocol": "filtered_original",
+  "input_pairs": 8079,
+  "retained_pairs": 7938,
+  "split_counts": {
+    "train": 6001,
+    "dev": 986,
+    "test": 951
+  },
+  "training_seeds_planned": [
+    42,
+    43,
+    44
+  ],
+  "primary_split_seed": null,
+  "backup_only_seed": 20261104,
+  "files": {
+    "A3-M1/remediation/manifests/filtered_original/dev.csv": "f4bbf4a113c525287eb3a2611e9f9574b06deeffb8da94e752cae99a01cfc39b",
+    "A3-M1/remediation/manifests/filtered_original/test.csv": "d25be8cee35ee93ebd8f3897ec7b44194de94d16859393a25cd70cbd1f617eda",
+    "A3-M1/remediation/manifests/filtered_original/train.csv": "983159ee305e2f2daf09b3a4a44ec6184e54c7ee549b6f1cf27db13205439f04",
+    "A3-M1/remediation/provenance/pinned_source_index.csv": "5bcffac47852e428e8c13316ac3fb0c2604f7a56128e7dbc16a761ce72c975b2",
+    "A3-M1/remediation/review/reviewed_original_134.csv": "336c4a1e120cebcb674ad61c9db5cba00d52028ba1c0353306b2326eb82214de",
+    "A3-M1/remediation/tables/annotation_resolution.csv": "844041d68180d02c1cbe6447ec0a666498e7dda77eb12a25b5f39a0052412edf",
+    "A3-M1/remediation/tables/class_counts.csv": "a957c6cfccaa5d7aa11f3feb2cbad9af0fe546ec6e465a8e53eb2a9edecb934f",
+    "A3-M1/remediation/tables/filtered_original_selection_ledger.csv": "c62bd7b937a8a8cf5fd001ba76a60b38d746682f13a365e568868a56652b290d",
+    "A3-M1/remediation/tables/group_membership.csv": "cca017ac449ed69bc20aace23910786e0e70cf917a3ab65549f846cd9fda20af",
+    "A3-M1/remediation/tables/original_17_group_resolution.csv": "7fe5f8946ee247290b0f2d144ea26221793b6fcaf1bfb2f9290d567b8d463dd0",
+    "A3-M1/remediation/tables/original_17_group_summary.csv": "9e89c1c4090995d64c1ded40f796d8b0b80ce4aaf92b678b2bc0505baa2b7545",
+    "A3-M1/remediation/tables/verification_checks.csv": "f18c415e1b5f431b08f1f3603e6890bdf6300791fa4550ad2fa637be44362192",
+    "A3-M1/tables/event_distribution.csv": "0d72db672ffeee6f7467181710d62e781602c060ab39a9397268654c41264a4f",
+    "A3-M1/tables/image_size_summary.csv": "89f0562a3391abf1e71930fb4a716378cdf9e058cc5cdeb25b49a58bebd82864",
+    "A3-M1/tables/text_length_summary.csv": "4525f0e8f5301d2be5a33c665b38bad8e21fdc7d4a6fd5f95caaa07dbd42d09a"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "audited_at_utc": "2026-11-04T14:01:16.192417+00:00",
+  "qcri_revision": "10a5626ba112ab9c50369c473a2062bcf205d708",
+  "mirror_revision": "a935fda3cee8a5250746a8d1d6278214d615cc89",
+  "primary_rows": 18082,
+  "mirror_pairs": 8079,
+  "primary_reconstructed_pairs": 8109,
+  "official_agreed_zip_access": "HTTP 403; no original agreed ZIP bytes inspected",
+  "decoded_images": 8079,
+  "structurally_valid": 8079,
+  "empty_texts": 0,
+  "id_mismatches": 0,
+  "filename_mismatches": 0,
+  "primary_join_issues": 0,
+  "source_label_disagreements": 7,
+  "target_differs_from_primary_text": 7,
+  "target_differs_from_primary_image": 0,
+  "texts_differ_from_primary": 0,
+  "mojibake_candidates": 652,
+  "replacement_character_rows": 0,
+  "unique_tweets": 7216,
+  "unique_image_bytes": 8009,
+  "image_bytes_total": 859765201,
+  "primary_image_comparisons": 245,
+  "primary_image_byte_matches": 245,
+  "all_published_cells_match": true,
+  "duplicates": [
+    {
+      "criterion": "tweet_id",
+      "duplicate_groups": 545,
+      "duplicate_rows": 1408,
+      "excess_rows": 863,
+      "cross_split_groups": 0,
+      "cross_split_rows": 0
+    },
+    {
+      "criterion": "image_id",
+      "duplicate_groups": 0,
+      "duplicate_rows": 0,
+      "excess_rows": 0,
+      "cross_split_groups": 0,
+      "cross_split_rows": 0
+    },
+    {
+      "criterion": "image_sha256",
+      "duplicate_groups": 49,
+      "duplicate_rows": 119,
+      "excess_rows": 70,
+      "cross_split_groups": 17,
+      "cross_split_rows": 54
+    },
+    {
+      "criterion": "pixel_sha256",
+      "duplicate_groups": 49,
+      "duplicate_rows": 119,
+      "excess_rows": 70,
+      "cross_split_groups": 17,
+      "cross_split_rows": 54
+    },
+    {
+      "criterion": "raw_text_sha256",
+      "duplicate_groups": 545,
+      "duplicate_rows": 1408,
+      "excess_rows": 863,
+      "cross_split_groups": 0,
+      "cross_split_rows": 0
+    },
+    {
+      "criterion": "normalized_text_sha256",
+      "duplicate_groups": 550,
+      "duplicate_rows": 1418,
+      "excess_rows": 868,
+      "cross_split_groups": 2,
+      "cross_split_rows": 4
+    }
+  ],
+  "phash_cross_split_candidate_pairs": 134,
+  "text_words": {
+    "dev": {
+      "median": 14.0,
+      "p95": 20.0,
+      "min": 4,
+      "max": 26
+    },
+    "test": {
+      "median": 14.0,
+      "p95": 20.0,
+      "min": 4,
+      "max": 25
+    },
+    "train": {
+      "median": 14.0,
+      "p95": 20.0,
+      "min": 4,
+      "max": 26
+    }
+  },
+  "duration_seconds": 75.99,
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "pillow": "13.0.0"
+  },
+  "no_training_performed": true,
+  "primary_comparison_coverage": {
+    "dev": [
+      "california_wildfires",
+      "hurricane_harvey",
+      "hurricane_irma",
+      "hurricane_maria",
+      "iraq_iran_earthquake",
+      "mexico_earthquake",
+      "srilanka_floods"
+    ],
+    "test": [
+      "california_wildfires",
+      "hurricane_harvey",
+      "hurricane_irma",
+      "hurricane_maria",
+      "iraq_iran_earthquake",
+      "mexico_earthquake",
+      "srilanka_floods"
+    ],
+    "train": [
+      "california_wildfires",
+      "hurricane_harvey",
+      "hurricane_irma",
+      "hurricane_maria",
+      "iraq_iran_earthquake",
+      "mexico_earthquake",
+      "srilanka_floods"
+    ]
+  },
+  "mirror_lfs_files_verified": 4,
+  "strict_primary_label_consistent_rows": 8072,
+  "feature_cache_fp32_bytes_512_plus_768": 41364480
+}

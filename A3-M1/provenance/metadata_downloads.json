@@ -1,0 +1,95 @@
+{
+  "revision": "10a5626ba112ab9c50369c473a2062bcf205d708",
+  "files": [
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/README.md",
+      "path": "provenance/QCRI_README.md",
+      "status": "downloaded",
+      "bytes": 12391,
+      "sha256": "040ef9b9c09d5b4798512a927d80b026a36f120f6a22809ab6e1d7e4df07aa23"
+    },
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/licenses_by-nc-sa_4.0_legalcode.txt",
+      "path": "provenance/licenses_by-nc-sa_4.0_legalcode.txt",
+      "status": "cached",
+      "bytes": 20850,
+      "sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd"
+    },
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/humanitarian/train.json",
+      "path": "data/annotations/humanitarian_train.json",
+      "status": "downloaded",
+      "bytes": 5662010,
+      "sha256": "8e4fed17c4b9a4feb8df22443e018615efc8caf11527096885ab970cb41df991"
+    },
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/humanitarian/dev.json",
+      "path": "data/annotations/humanitarian_dev.json",
+      "status": "downloaded",
+      "bytes": 930646,
+      "sha256": "c79f828892c5b92ef4f296963b90c4a410459f0b433b6c3c897d8a0e82df2200"
+    },
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/humanitarian/test.json",
+      "path": "data/annotations/humanitarian_test.json",
+      "status": "downloaded",
+      "bytes": 930601,
+      "sha256": "c0acf8a1b13e253814a50f7e007e2b0f3da32f87bc44fe648cef820bd3d196b3"
+    },
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/files_individual_events/california_wildfires_final_data.tsv",
+      "path": "data/annotations/california_wildfires_final_data.tsv",
+      "status": "downloaded",
+      "bytes": 618723,
+      "sha256": "ecf6fa7b057a725e67165ecb4a41e5ad599a41b8d23891b58f714ba9e7afea97"
+    },
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/files_individual_events/hurricane_harvey_final_data.tsv",
+      "path": "data/annotations/hurricane_harvey_final_data.tsv",
+      "status": "downloaded",
+      "bytes": 1681137,
+      "sha256": "80ad4ab4d2143704cff150fd24a070879ef0e9ca4c331aa65c294e50c0c8ff8d"
+    },
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/files_individual_events/hurricane_irma_final_data.tsv",
+      "path": "data/annotations/hurricane_irma_final_data.tsv",
+      "status": "downloaded",
+      "bytes": 1715140,
+      "sha256": "faf29d9755ea57124f08af086f620c0e385a1a033ac4fc6f974bfb9ccca06f32"
+    },
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/files_individual_events/hurricane_maria_final_data.tsv",
+      "path": "data/annotations/hurricane_maria_final_data.tsv",
+      "status": "downloaded",
+      "bytes": 1727922,
+      "sha256": "bef0521cdac1e4249113de8727a9293db69406ea6c43332d4771be4a0a1ffe04"
+    },
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/files_individual_events/iraq_iran_earthquake_final_data.tsv",
+      "path": "data/annotations/iraq_iran_earthquake_final_data.tsv",
+      "status": "downloaded",
+      "bytes": 229248,
+      "sha256": "4ff0f8b71743d0e57d0588d89be9e7fca4d6a6042d1f43dbba77f55adbff1937"
+    },
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/files_individual_events/mexico_earthquake_final_data.tsv",
+      "path": "data/annotations/mexico_earthquake_final_data.tsv",
+      "status": "downloaded",
+      "bytes": 531369,
+      "sha256": "6d391cde3811b38896c5ea99892f0a8337710f9ffc2efd3b0e47765551d96b86"
+    },
+    {
+      "url": "https://huggingface.co/datasets/QCRI/CrisisMMD/resolve/10a5626ba112ab9c50369c473a2062bcf205d708/files_individual_events/srilanka_floods_final_data.tsv",
+      "path": "data/annotations/srilanka_floods_final_data.tsv",
+      "status": "downloaded",
+      "bytes": 368833,
+      "sha256": "53544f8da449df9742bebad7bb07f563d6dda8cc4d44e8baad5d74dff57021cd"
+    },
+    {
+      "url": "https://crisisnlp.qcri.org/data/crisismmd/crisismmd_datasplit_agreed_label.zip",
+      "path": "data/annotations/crisismmd_datasplit_agreed_label.zip",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ]
+}

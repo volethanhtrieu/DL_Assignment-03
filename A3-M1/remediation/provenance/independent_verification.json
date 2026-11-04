@@ -1,0 +1,17 @@
+{
+  "independent_manifest_verification": [
+    {
+      "protocol": "filtered_original",
+      "rows": 7938,
+      "status": "PASS",
+      "verified": "Actual emitted CSVs: identity/content/label preservation; full selection membership; all five classes; declared group/duplicate isolation."
+    },
+    {
+      "protocol": "group_repartition",
+      "rows": 8063,
+      "status": "PASS",
+      "verified": "Actual emitted CSVs: identity/content/label preservation; full selection membership; all five classes; declared group/duplicate isolation."
+    }
+  ],
+  "original_evidence_files_unchanged": 79
+}

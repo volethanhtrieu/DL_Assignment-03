@@ -1,0 +1,41 @@
+{
+  "mirror_revision": "a935fda3cee8a5250746a8d1d6278214d615cc89",
+  "qcri_revision": "10a5626ba112ab9c50369c473a2062bcf205d708",
+  "files": [
+    {
+      "url": "https://huggingface.co/datasets/pranitchawla/crisismmd-mteb/resolve/a935fda3cee8a5250746a8d1d6278214d615cc89/README.md",
+      "path": "data/mirror/README.md",
+      "status": "downloaded",
+      "bytes": 2986,
+      "sha256": "f2a547680195a1dc1e2431e7ec48cd070e679ddbac70de68b84f30d1f2fbe34e"
+    },
+    {
+      "url": "https://huggingface.co/datasets/pranitchawla/crisismmd-mteb/resolve/a935fda3cee8a5250746a8d1d6278214d615cc89/humanitarian/test-00000-of-00001.parquet",
+      "path": "data/mirror/humanitarian/test-00000-of-00001.parquet",
+      "status": "downloaded",
+      "bytes": 94395363,
+      "sha256": "cb3726eeb8a3dee8c4231a09d2ade6bb7b8ed66919a447654802cb0594a2288f"
+    },
+    {
+      "url": "https://huggingface.co/datasets/pranitchawla/crisismmd-mteb/resolve/a935fda3cee8a5250746a8d1d6278214d615cc89/humanitarian/validation-00000-of-00001.parquet",
+      "path": "data/mirror/humanitarian/validation-00000-of-00001.parquet",
+      "status": "downloaded",
+      "bytes": 100683202,
+      "sha256": "0c79b28b1a5196f7e7d0e10f8b1b0abfbdd715240a24a2e38cfae6ca8c3a09ae"
+    },
+    {
+      "url": "https://huggingface.co/datasets/pranitchawla/crisismmd-mteb/resolve/a935fda3cee8a5250746a8d1d6278214d615cc89/humanitarian/train-00000-of-00002.parquet",
+      "path": "data/mirror/humanitarian/train-00000-of-00002.parquet",
+      "status": "downloaded",
+      "bytes": 351794212,
+      "sha256": "52708870533dfed520280b9b7b0d6f16b896e6edf5019420ae5b05d0ea6df69b"
+    },
+    {
+      "url": "https://huggingface.co/datasets/pranitchawla/crisismmd-mteb/resolve/a935fda3cee8a5250746a8d1d6278214d615cc89/humanitarian/train-00001-of-00002.parquet",
+      "path": "data/mirror/humanitarian/train-00001-of-00002.parquet",
+      "status": "downloaded",
+      "bytes": 314089719,
+      "sha256": "9da26de28df7ab3abcfa5e60174fefce0d8f5870f95ff3bd12868ccafb10ddc8"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "files_compared": 26,
+  "all_result_hashes_identical": true,
+  "runs": [
+    {
+      "script": "remediate.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_candidates.py",
+      "exit_code": 0
+    }
+  ],
+  "scope": "Candidate manifests, selection/count/review tables, policies, source preservation and independent checks; original image audit not rerun.",
+  "fingerprints": {
+    "manifests/filtered_original/dev.csv": "f4bbf4a113c525287eb3a2611e9f9574b06deeffb8da94e752cae99a01cfc39b",
+    "manifests/filtered_original/test.csv": "d25be8cee35ee93ebd8f3897ec7b44194de94d16859393a25cd70cbd1f617eda",
+    "manifests/filtered_original/train.csv": "983159ee305e2f2daf09b3a4a44ec6184e54c7ee549b6f1cf27db13205439f04",
+    "manifests/group_repartition/dev.csv": "4b35a5571875a87f368dcde228f00258814ba562d25d4367852a150da62fb21f",
+    "manifests/group_repartition/test.csv": "32a0b09bc694ccb9c5b92bac7cf1c73e974d5d782ac67c6259086223a27f3da3",
+    "manifests/group_repartition/train.csv": "b74eb1d9b6a1f156904492a70b13b27ad0b49dce24642d31a2ea664ff65a7e06",
+    "provenance/independent_verification.json": "0bb6fc83f0329880397710d2b5aaef81bc539e24c7f48bf576e577b8f89d000a",
+    "provenance/original_evidence_preserved.json": "572d5b42999fe84c1f3184ef14534464bb7be896a3a2cd1f3405be0aaa10e49a",
+    "provenance/remediation_policy.json": "18b53d00fea785bf3073d5ceb781c8d95b1940dc9c437c5768b5626dee9dd7a5",
+    "provenance/remediation_summary.json": "e6f82a58da2b0f485c048ff06b0bf71aa83c42b52b18cc530eba0c56e07a92e1",
+    "review/reviewed_original_134.csv": "336c4a1e120cebcb674ad61c9db5cba00d52028ba1c0353306b2326eb82214de",
+    "review/secondary_candidate_guards.csv": "edca8745956a1785ece20cbcca9eebe786f49b0b4da99b9ec5948e2053ecfe1a",
+    "tables/annotation_discrepancies_original.csv": "aee68e9ad297c7547707ee224724e5eba539c2f31397eccbcfec9d2d110ee8d6",
+    "tables/annotation_resolution.csv": "844041d68180d02c1cbe6447ec0a666498e7dda77eb12a25b5f39a0052412edf",
+    "tables/base_quarantine.csv": "8c284eb545dbc3b700721d3d8ec88e12022b17a600f0fd87adb78348e03138ea",
+    "tables/class_counts.csv": "a957c6cfccaa5d7aa11f3feb2cbad9af0fe546ec6e465a8e53eb2a9edecb934f",
+    "tables/filtered_original_leakage_exclusions.csv": "001484c56380c69b95ba8d4c4ff642ea5da99defdeb104d6520a7bf018edfb88",
+    "tables/filtered_original_selection_ledger.csv": "c62bd7b937a8a8cf5fd001ba76a60b38d746682f13a365e568868a56652b290d",
+    "tables/group_membership.csv": "cca017ac449ed69bc20aace23910786e0e70cf917a3ab65549f846cd9fda20af",
+    "tables/group_repartition_selection_ledger.csv": "06f5b0e02a6c08dd71fbb0a84b4cf4dfc83ce6d5a1e317cb91dfc165af545e11",
+    "tables/normalized_text_resolution.csv": "457f6d5142d43c03630c07c168a85b9c517f2a48a5d0537017a32e67cfea1ff0",
+    "tables/original_17_group_resolution.csv": "7fe5f8946ee247290b0f2d144ea26221793b6fcaf1bfb2f9290d567b8d463dd0",
+    "tables/original_17_group_summary.csv": "9e89c1c4090995d64c1ded40f796d8b0b80ce4aaf92b678b2bc0505baa2b7545",
+    "tables/placeholder_quarantine.csv": "aca91aee97218d4d7c57a7eb395001960c2e991bc1644045e76ef75421b2edcb",
+    "tables/repeated_group_summary.csv": "b92425daa3c992337a8142345209aed4184b64e2c41efbc7089a3eda3dda8e72",
+    "tables/verification_checks.csv": "f18c415e1b5f431b08f1f3603e6890bdf6300791fa4550ad2fa637be44362192"
+  }
+}

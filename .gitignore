@@ -1,0 +1,18 @@
+# Raw sources, caches, credentials and runtime outputs are never publication assets.
+A3-M1/data/
+A3-M1/examples/
+A3-M1/runtime-deps/
+A3-M1/tables/benchmark_manifest.csv
+A3-M1/tables/normalized_text_resolution.csv
+A3-M1/provenance/image_downloads.jsonl
+outputs/
+runs/
+checkpoints/
+__pycache__/
+*.pyc
+*.parquet
+*.tar.gz
+.env
+.env.*
+*.pem
+*.key

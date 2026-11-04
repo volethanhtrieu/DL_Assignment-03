@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "all_expected_pairs_retained": true,
+    "split_counts_match_published": true,
+    "five_classes_present": true,
+    "all_15_published_cells_match": true,
+    "no_empty_text_or_corrupt_image_in_manifest": true,
+    "tweet_ids_roundtrip_without_float_precision_loss": true,
+    "all_source_annotations_join_uniquely": true,
+    "17_exact_image_cross_split_groups": true,
+    "54_exact_image_cross_split_records": true,
+    "7_current_primary_label_differences": true,
+    "all_checked_primary_bytes_match": true,
+    "all_four_parquet_payload_hashes_match_pinned_lfs": true,
+    "six_figures_readable": true,
+    "html_has_six_embedded_figures": true,
+    "html_is_rendered_not_plaintext_fallback": true,
+    "audit_verdict_is_conditional": true
+  },
+  "all_passed": true,
+  "interpretation": "These verify consistency and reproduction evidence. Passing does not certify dataset approval, semantic labels, or leakage freedom."
+}
