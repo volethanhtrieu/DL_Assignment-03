@@ -18,7 +18,8 @@ Instructor: **Lê Thành Sách**. M1 due **18 November 2026, 23:59 GMT+7**.
 M1 proposal and data-integrity evidence remain locked. **M2 has nine real, development-only runs (image/text/concatenation × seeds 42/43/44).** M3 improved fusion, ablations, final test evaluation, slides/video and LMS submission are not claimed as complete. The group reports prior dataset approval was waived; this is not a formal approval decision.
 
 - [Assignment page](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/assignment-03/index.html) · [Main landing page](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/). These are deployment destinations; actual live verification is recorded in the publication checklist.
-- [Proposal PDF](docs/m1/CO3133_A3_M1_GroupGoat_Dataset_Proposal.pdf) · [Editable DOCX](docs/m1/CO3133_A3_M1_GroupGoat_Dataset_Proposal.docx).
+- **M1 report:** [PDF](docs/m1/CO3133_Assignment%203_M1_Report.pdf) · [LaTeX source](docs/m1/CO3133_Assignment%203_M1_Report.tex) (academic LaTeX layout; M1 scope and dataset unchanged).
+- **Original M1 proposal:** [PDF](docs/m1/CO3133_A3_M1_GroupGoat_Dataset_Proposal.pdf) · [Editable DOCX](docs/m1/CO3133_A3_M1_GroupGoat_Dataset_Proposal.docx) · [M1 document index](docs/m1/README.md).
 - [Earlier pre-publication compliance PDF](docs/m1/CO3133_A3_M1_GroupGoat_Compliance_Checklist.pdf) · [Current publication checklist](docs/m1/PUBLICATION_CHECKLIST.md).
 - [AI Usage Disclosure](AI_USAGE.md) · [Prompt summaries](docs/m1/PROMPT_LOG.md).
 - [Dataset provenance, EDA and preprocessing/split rules](docs/m1/DATASET.md).
