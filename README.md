@@ -1,6 +1,6 @@
 # DL_Assignment-03
 
-## Group Goat M1 Dataset Proposal
+## Group Goat — M1 Proposal and M2 Experimental Draft
 
 **CO3133 - Deep Learning and Its Applications - Semester 261**  
 Ho Chi Minh City University of Technology - VNU-HCM, Faculty of Computer Science and Engineering.  
@@ -15,7 +15,7 @@ Instructor: **Lê Thành Sách**. M1 due **18 November 2026, 23:59 GMT+7**.
 | **Nguyễn Huỳnh Nam Quốc** | **2453089** | **100%** | **Assignment 3 sole academic contributor:** dataset research, validation, remediation, proposal, reproducibility, documentation and verification. |
 ### Current scope
 
-M1 dataset/proposal and audit evidence are prepared. **No model training, M2/M3 results, checkpoints, slides/video, LMS submission or completed student final review are claimed.** The group reports prior dataset approval was waived; this is not a formal approval decision.
+M1 proposal and data-integrity evidence remain locked. **M2 has nine real, development-only runs (image/text/concatenation × seeds 42/43/44).** M3 improved fusion, ablations, final test evaluation, slides/video and LMS submission are not claimed as complete. The group reports prior dataset approval was waived; this is not a formal approval decision.
 
 - [Assignment page](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/assignment-03/index.html) · [Main landing page](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/). These are deployment destinations; actual live verification is recorded in the publication checklist.
 - [Proposal PDF](docs/m1/CO3133_A3_M1_GroupGoat_Dataset_Proposal.pdf) · [Editable DOCX](docs/m1/CO3133_A3_M1_GroupGoat_Dataset_Proposal.docx).
@@ -49,9 +49,26 @@ The full manifest contains tweet text and is intentionally excluded from Git. Or
 
 Dataset source paths, versions and payload checksums are in `A3-M1/provenance/metadata_downloads.json`, `mirror_downloads.json`, and `A3-M1/DATASET_LOCK.json`. The source scripts use these historical pins; if fetching sources for a fresh audit, use a separate working copy and retain raw files outside publication. Dataset preprocessing/split code is available now; model train/evaluate commands and checkpoint reconstruction are later M2/M3 work, not implemented M1 commands.
 
+### M2 REAL development results (17 November 2026)
+
+The M2-only development experiments are now complete under the unchanged primary split. **No test evaluation has been performed.**
+
+| Model | Dev macro-F1 mean ± sample SD | Dev accuracy mean ± sample SD | Trainable head parameters |
+|---|---:|---:|---:|
+| Image-only ResNet-18 | 0.5746 ± 0.0068 | 0.6930 ± 0.0077 | 66,309 |
+| Text-only DistilBERT | 0.6811 ± 0.0016 | 0.7762 ± 0.0064 | 99,077 |
+| Concatenation fusion | **0.8116 ± 0.0041** | **0.8540 ± 0.0044** | 197,637 |
+
+- [M2 scientific report PDF](docs/m2/CO3133_Assignment%203_M2_Report.pdf) · [LaTeX source](docs/m2/CO3133_Assignment%203_M2_Report.tex).
+- [M2 dev summary](results/m2_dev/DEV_RESULTS.md) · [Nine model logs and trained head checkpoints](artifacts/m2/experiments/primary/) · [Run verification](docs/m2/M2_PUBLICATION_CHECKLIST.md).
+- To recalculate all 9 dev result rows and validate published files: `python scripts/verify_m2_evidence.py`.
+- M2-only reproducibility notebook: `m2m3/CO3133_A3_M2_GPU_Execution.ipynb`. The feature cache and raw CrisisMMD images/text are not published.
+
+**Limitations:** This is not a held-out test result; the rarest class has only 9 development examples; original agreed-label archive equivalence remains unverified. M3 work is separate.
+
 ### M2 and M3 roadmap
 
-M2 (25 Nov): image-only, text-only and concatenation quantitative results. M3 (2 Dec): gated fusion, controlled gate ablation, modality support/conflict review, errors, cost, final report/slides/video and checkpoints/reproduction instructions. These are plans. The unchanged proposal contains the detailed experiment design and estimates; its disclosure tool-identification cell is corrected for ChatGPT Work/Codex.
+M2 (25 Nov): image-only, text-only and concatenation quantitative **development** results are completed as above; publication and LMS submission remain student actions. M3 (2 Dec): gated fusion, controlled gate ablation, test evaluation, modality support/conflict review, final report/slides/video and end-to-end cost are future work only. The unchanged proposal contains the detailed experiment design and estimates; its disclosure tool-identification cell is corrected for ChatGPT Work/Codex.
 
 ### Publication and exclusions
 

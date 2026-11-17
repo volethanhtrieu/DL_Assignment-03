@@ -1,0 +1,27 @@
+{
+  "protocol": "filtered_original",
+  "dataset_version": "crisismmd5-mirror-remediation-20261104-v1",
+  "npz_sha256": {
+    "train": "f36903ea8f74d7f8ca8899ac9cb71c3ece8acfa84b64bbb64f51036365a75e1d",
+    "dev": "bb5395f7d38de15f3068927bcdc543b82e7e3fc906e0ef7473b2efeb412e00ed",
+    "test": "5fa1cefe10430981e1a95d589fd09b01216985387c701f7878cbd8c9ae03761b"
+  },
+  "mirror_revision": "a935fda3cee8a5250746a8d1d6278214d615cc89",
+  "pretrained_image": "ResNet18 IMAGENET1K_V1",
+  "pretrained_text": "distilbert/distilbert-base-uncased",
+  "text_model_commit": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "tokenizer_model": "distilbert/distilbert-base-uncased",
+  "model_revision_locked": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "max_tokens": 128,
+  "mean_token_length": 17.140715545477452,
+  "max_token_length": 81,
+  "truncated_pairs": 0,
+  "unknown_tokens": 19,
+  "encoder_feature_seconds": 144.66245237200008,
+  "device": "cuda",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "torchvision": "0.29.1+cu130",
+  "transformers": "4.57.6",
+  "pyarrow": "23.0.1"
+}

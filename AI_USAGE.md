@@ -27,3 +27,23 @@ The proposal correction changes only its tool-identification disclosure cell to 
 M2/M3 encoder training, fusion experiments, ablations, model metrics, checkpoints, slides and video are **planned, not completed**. The prior repository disclosure was a planning template; its prospective file/model names and blanket student-verification statement are not treated as evidence of executed work.
 
 The group reports that prior dataset approval was waived for this group. No formal approval status is claimed. Students retain responsibility for understanding, correcting and verifying submitted material. LMS submission and completed student review are not asserted by this log. No additional AI providers or model versions are inferred from templates.
+
+---
+
+## M2 supplement — executed 17 November 2026 (development only)
+
+This section adds *executed* M2 work to the historical M1 disclosure above. It does not retroactively change M1 claims.
+
+| Mandatory field (Handbook Section 5.2) | M2 record |
+|---|---|
+| AI tool and model/version | ChatGPT Work/Codex assistance during implementation planning and report preparation. The exact underlying model/build was not independently verified. No additional AI provider is inferred. |
+| Member using the tool | Nguyễn Huỳnh Nam Quốc (2453089), the Assignment 3 academic contributor (100%; the two other A3 members 0%). |
+| Date and stage | 17 November 2026, A3 M2 dataset feature extraction, model training supervision, result checks and scientific report drafting/publication preparation. |
+| Purpose | Assist with code generation/review, methodological consistency checks, result aggregation, plotting and LaTeX scientific writing. |
+| Sections/files affected | `m2m3/` experimental source, M2 Colab notebook, `docs/m2/CO3133_Assignment 3_M2_Report.tex`/`.pdf`, summaries, publication records and A3 page text. |
+| Representative prompts | Set up the locked dataset and GPU run, check nine M2 development runs, evaluate the results evidence, write a scientific M2 report in LaTeX, display colored graphs/matrix while preserving a conventional paper layout, and publish M2 without altering M1. Summaries, not fabricated verbatim transcripts. |
+| Editing and verification performed | Student ran the real frozen encoders and 9 training runs on a Colab Tesla T4. Saved predictions, checkpoint/run JSON data, locked metadata and aggregate tables were inspected and recalculated. Reproduction from raw media is possible with published scripts but is not independently claimed for the current publication. |
+| Final responsible student/verifier | Nguyễn Huỳnh Nam Quốc. Independent final student comprehension, LMS submission and instructor approval are student responsibilities; they are not certified by the assistant. |
+| Verification sources | M1 `DATASET_LOCK.json`/dataset documentation; pinned QCRI and third-party mirror references; `artifacts/m2/runs/primary/` (nine run JSONs, predictions, trained-head checkpoints), `results/m2_dev/`, `artifacts/m2/feature_metadata.json`, and the CO3133 handbook. |
+
+**Observed M2 outcome (development only):** image-only macro-F1 0.5746 ± 0.0068; text-only 0.6811 ± 0.0016; concatenation 0.8116 ± 0.0041, all means ± sample SD over seeds 42/43/44. No M3 improved model, ablation, or held-out test results are claimed. Original CrisisMMD agreed-label archive equivalence remains unverified. The report uses student-run measurements, not synthetic smoke metrics.
