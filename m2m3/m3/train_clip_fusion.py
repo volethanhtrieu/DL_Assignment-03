@@ -3,9 +3,9 @@ import json
 import statistics
 import sys
 from pathlib import Path
-from _m3_paths import DATA_ROOT
+from _m3_paths import DATA_ROOT, REPO_ROOT
 
-repo = Path("DL_Assignment-03").resolve()
+repo = REPO_ROOT
 sys.path.insert(0, str(repo / "m2m3"))
 
 import experiment as exp

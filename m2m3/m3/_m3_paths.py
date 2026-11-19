@@ -3,6 +3,7 @@ import sys
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parents[1]
 M2M3_DIR = SCRIPT_DIR.parent
 
 if str(M2M3_DIR) not in sys.path:

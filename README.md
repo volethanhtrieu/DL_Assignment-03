@@ -97,11 +97,15 @@ statistical superiority has not been established.
 - [M3 documentation](docs/m3/README.md)
 - [Experimental results](results/m3/README.md)
 - [M3 source code](m2m3/m3/README.md)
+
+- [M3 per-seed test metrics](results/m3/test/per_seed_metrics.csv)
+- [M3 trained-head checkpoints](artifacts/m3/experiments/primary/)
+- [M3 evidence verification](scripts/verify_m3_evidence.py)
+- [M3 SHA256 manifest](docs/m3/SHA256SUMS.txt)
 - [AI usage disclosure](AI_USAGE.md)
 
 The Gradio demo has been validated locally with original checkpoints.
-It has not been publicly deployed. Raw crisis media, checkpoints and
-internal case galleries are excluded from this publication.
+It has not been publicly deployed. Raw crisis media and internal case galleries remain excluded. The six M3 gated/fixed-gate head checkpoints, fifteen per-seed test metric files, run evidence and SHA256 ledger are now published. The nine original M2 checkpoints are reused without duplication. Verify with `python scripts/verify_m3_evidence.py`.
 
 #### Remaining milestones
 
