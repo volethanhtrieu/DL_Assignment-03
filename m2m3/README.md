@@ -1,6 +1,6 @@
 # Assignment 3 — Milestone 2: empirical draft (Group Goat)
 
-This directory contains the **actual M2 implementation and 9 development runs** performed on 17 November 2026. It supersedes the *pre-execution* README in the original code bundle. The main M1 dataset design, manifests and proposal remain unchanged. **M3 experiments and held-out test evaluation have NOT been performed.**
+This directory contains the **actual M2 implementation and 9 development runs** performed on 17 November 2026. It supersedes the *pre-execution* README in the original code bundle. The main M1 dataset design, manifests and proposal remain unchanged. **M3 was completed subsequently.** This README records the M2-stage experiments only. See [M3 documentation](m3/README.md) and [M3 results](../results/m3/README.md).
 
 ## Locked protocol
 
@@ -8,7 +8,7 @@ This directory contains the **actual M2 implementation and 9 development runs** 
 - Frozen ResNet-18 `IMAGENET1K_V1` (512 image features), DistilBERT base uncased (768 token-mask mean-pooled text features), trainable projection and classification heads.
 - M2: image-only, text-only and concatenation fusion, each seed 42, 43, 44. Head-only Adam 1e-3, weight decay 1e-4, weighted cross entropy based on training labels, dropout 0.2, batch 64, max 30 epochs, dev macro-F1 early stopping patience 5.
 - **Observed dev mean macro-F1 ± sample SD:** image 0.5746 ± 0.0068; text 0.6811 ± 0.0016; concat 0.8116 ± 0.0041.
-- No test scores and no M3 gated/fixed-gate results are included or claimed.
+- This M2 results section does not include held-out test scores or M3 gated/fixed-gate results; those are documented separately.
 
 ## Published M2 evidence
 

@@ -16,3 +16,6 @@ __pycache__/
 .env.*
 *.pem
 *.key
+
+# Microsoft Word temporary lock files
+~$*.docx

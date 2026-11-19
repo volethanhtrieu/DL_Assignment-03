@@ -3,7 +3,7 @@ import csv
 import json
 import sys
 from pathlib import Path
-from _m3_paths import DATA_ROOT
+from _m3_paths import DATA_ROOT, REPO_ROOT
 
 import gradio as gr
 import torch
@@ -12,7 +12,7 @@ from transformers import AutoModel, AutoTokenizer
 
 HERE = DATA_ROOT
 ROOT = HERE.parent
-REPO = ROOT / "DL_Assignment-03"
+REPO = REPO_ROOT
 
 sys.path.insert(0, str(REPO / "m2m3"))
 import experiment as exp

@@ -27,5 +27,4 @@ pending a rights and privacy review.
 The original experiment protocol and historical M1/M2 artifacts
 remain preserved in this repository. M3 source is published under
 `m2m3/m3/`, with selected aggregate results under `results/m3/`.
-Raw crisis media, internal case galleries and M3 checkpoints
-remain excluded from public distribution.
+Raw crisis media and internal case galleries remain excluded. Six new M3 trained-head checkpoints are published under `artifacts/m3/`; nine previously published M2 checkpoints are reused. Per-seed test metrics and SHA256 evidence are available under `results/m3/test/` and `docs/m3/SHA256SUMS.txt`.

@@ -16,8 +16,7 @@ Test: 951 pairs
 These files were copied from the local experiment outputs
 without changing their numerical contents.
 
-Raw CrisisMMD media, individual case galleries and
-model checkpoints are not included.
+Raw CrisisMMD media and individual case galleries are excluded. Trained-head checkpoints are available under `artifacts/m2/` and `artifacts/m3/`. This directory additionally includes 15 per-seed test metric files and `per_seed_metrics.csv`. Use `python scripts/verify_m3_evidence.py` to validate the 63 published checksum entries and aggregate results.
 
 The dataset is a custom filtered protocol, not an
 unchanged official benchmark.

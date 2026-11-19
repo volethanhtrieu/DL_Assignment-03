@@ -1,6 +1,6 @@
 # A3 M2 publication verification record
 
-Status: **LOCAL PACKAGE VERIFIED — REMOTE PUBLICATION NOT CONFIRMED** (17 Nov 2026).
+Status: **REMOTE M2 PUBLICATION CONFIRMED** (19 November 2026). Historical preparation notes from 17 November are retained below.
 
 - M1 protocol retained by construction; this patch has no `A3-M1/` or `docs/m1/` changes.
 - Source draft: `CO3133_Assignment 3_M2_Report.tex`; compiled PDF: matching `CO3133_Assignment 3_M2_Report.pdf`.
@@ -13,3 +13,12 @@ Status: **LOCAL PACKAGE VERIFIED — REMOTE PUBLICATION NOT CONFIRMED** (17 Nov 
 - Dataset approval waiver is only group-reported; formal decision/waiver evidence and LMS submission must be checked by students.
 
 M2 meets the handbook's *draft milestone model scope* (unimodal A/B and simple fusion with quantitative results). Improved fusion, ablations, final test evaluation, slides/video and full final report are later M3 deliverables.
+
+
+## Remote publication confirmation (19 November 2026)
+
+- M2 repository commit: https://github.com/volethanhtrieu/DL_Assignment-03/commit/a665c45eff91
+- Landing-page M2 commit: https://github.com/volethanhtrieu/Deep-Learning-project-main-page/commit/14acfee309a1
+- Earlier HTTP 403 and pending-push notes describe the historical preparation stage.
+- Remote commits confirm GitHub publication, not LMS submission.
+- Current local verification does not establish live Pages deployment.

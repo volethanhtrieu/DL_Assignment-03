@@ -7,7 +7,7 @@ import statistics
 import sys
 import time
 from pathlib import Path
-from _m3_paths import DATA_ROOT
+from _m3_paths import DATA_ROOT, REPO_ROOT
 
 import numpy as np
 import pyarrow.parquet as pq
@@ -16,7 +16,7 @@ from PIL import Image
 from torchvision import models
 from transformers import AutoModel, AutoTokenizer
 
-repo = Path("DL_Assignment-03").resolve()
+repo = REPO_ROOT
 sys.path.insert(0, str(repo / "m2m3"))
 import experiment as exp
 

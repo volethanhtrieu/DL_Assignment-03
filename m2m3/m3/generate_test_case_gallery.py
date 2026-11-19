@@ -6,13 +6,13 @@ import html
 import io
 import json
 from pathlib import Path
-from _m3_paths import DATA_ROOT
+from _m3_paths import DATA_ROOT, REPO_ROOT
 
 import pyarrow.parquet as pq
 from PIL import Image
 
 base = DATA_ROOT
-repo = Path("DL_Assignment-03")
+repo = REPO_ROOT
 
 cases_path = base / "Results/m3_test_final/modality_cases.csv"
 manifest_path = (
