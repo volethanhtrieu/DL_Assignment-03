@@ -1,0 +1,47 @@
+{
+  "dataset_version": "crisismmd5-mirror-remediation-20261104-v1",
+  "test_protocol": "custom_filtered_original",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "model_metrics": [
+    {
+      "model": "image",
+      "macro_f1_mean": 0.6127100346796281,
+      "macro_f1_sd": 0.01215272561437756,
+      "accuracy_mean": 0.7097791798107256,
+      "accuracy_sd": 0.003154574132492094
+    },
+    {
+      "model": "text",
+      "macro_f1_mean": 0.6665530947389847,
+      "macro_f1_sd": 0.007604685686649847,
+      "accuracy_mean": 0.7609533824044865,
+      "accuracy_sd": 0.015177451871441237
+    },
+    {
+      "model": "concat",
+      "macro_f1_mean": 0.7965244530245618,
+      "macro_f1_sd": 0.017566019778251663,
+      "accuracy_mean": 0.8576936558009113,
+      "accuracy_sd": 0.0026462791571225737
+    },
+    {
+      "model": "gated",
+      "macro_f1_mean": 0.7985863049465008,
+      "macro_f1_sd": 0.002733061298238195,
+      "accuracy_mean": 0.8583946722747985,
+      "accuracy_sd": 0.0012141961497152938
+    },
+    {
+      "model": "fixed_gate",
+      "macro_f1_mean": 0.7869436359504126,
+      "macro_f1_sd": 0.014468833778411688,
+      "accuracy_mean": 0.8555906063792499,
+      "accuracy_sd": 0.004969311909834468
+    }
+  ],
+  "warning": "Custom filtered test; rare class has 9 examples; not an untouched official benchmark."
+}

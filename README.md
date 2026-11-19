@@ -1,6 +1,6 @@
 # DL_Assignment-03
 
-## Group Goat — M1 Proposal and M2 Experimental Draft
+## Group Goat — M1 Dataset, M2 Experiments and M3 Evaluation
 
 **CO3133 - Deep Learning and Its Applications - Semester 261**  
 Ho Chi Minh City University of Technology - VNU-HCM, Faculty of Computer Science and Engineering.  
@@ -15,7 +15,11 @@ Instructor: **Lê Thành Sách**. M1 due **18 November 2026, 23:59 GMT+7**.
 | **Nguyễn Huỳnh Nam Quốc** | **2453089** | **100%** | **Assignment 3 sole academic contributor:** dataset research, validation, remediation, proposal, reproducibility, documentation and verification. |
 ### Current scope
 
-M1 proposal and data-integrity evidence remain locked. **M2 has nine real, development-only runs (image/text/concatenation × seeds 42/43/44).** M3 improved fusion, ablations, final test evaluation, slides/video and LMS submission are not claimed as complete. The group reports prior dataset approval was waived; this is not a formal approval decision.
+M1 dataset validation and remediation are preserved. M2 completed
+nine development-only runs. M3 completed local evaluation of five
+model configurations across three seeds, fusion ablation, inference
+benchmarking, gate analysis and checkpoint-based Gradio verification.
+GitHub publication, video and LMS submission remain separate actions.
 
 - [Assignment page](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/assignment-03/index.html) · [Main landing page](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/). These are deployment destinations; actual live verification is recorded in the publication checklist.
 - **M1 report:** [PDF](docs/m1/CO3133_Assignment%203_M1_Report.pdf) · [LaTeX source](docs/m1/CO3133_Assignment%203_M1_Report.tex) (academic LaTeX layout; M1 scope and dataset unchanged).
@@ -52,7 +56,7 @@ Dataset source paths, versions and payload checksums are in `A3-M1/provenance/me
 
 ### M2 REAL development results (17 November 2026)
 
-The M2-only development experiments are now complete under the unchanged primary split. **No test evaluation has been performed.**
+The M2-only development experiments are now complete under the unchanged primary split. **No held-out test evaluation was performed during M2.** Subsequent M3 test results are presented below.
 
 | Model | Dev macro-F1 mean ± sample SD | Dev accuracy mean ± sample SD | Trainable head parameters |
 |---|---:|---:|---:|
@@ -67,9 +71,44 @@ The M2-only development experiments are now complete under the unchanged primary
 
 **Limitations:** This is not a held-out test result; the rarest class has only 9 development examples; original agreed-label archive equivalence remains unverified. M3 work is separate.
 
-### M2 and M3 roadmap
+### M3 evaluation - Local results
 
-M2 (25 Nov): image-only, text-only and concatenation quantitative **development** results are completed as above; publication and LMS submission remain student actions. M3 (2 Dec): gated fusion, controlled gate ablation, test evaluation, modality support/conflict review, final report/slides/video and end-to-end cost are future work only. The unchanged proposal contains the detailed experiment design and estimates; its disclosure tool-identification cell is corrected for ChatGPT Work/Codex.
+M3 uses the custom `filtered_original` CrisisMMD dataset:
+**6,001 train / 986 dev / 951 test pairs**.
+
+Five model configurations were evaluated over seeds 42, 43 and 44
+(15 runs in total).
+
+| Model | Test macro-F1 (mean +/- SD) |
+|---|---:|
+| Image-only | 0.6127 +/- 0.0122 |
+| Text-only | 0.6666 +/- 0.0076 |
+| Concatenation fusion | 0.7965 +/- 0.0176 |
+| Fixed gate | 0.7869 +/- 0.0145 |
+| Learned gated fusion | **0.7986 +/- 0.0027** |
+
+The learned gate exceeds concatenation by only 0.0021 mean macro-F1.
+Paired group-bootstrap confidence intervals include zero, so
+statistical superiority has not been established.
+
+#### M3 deliverables
+
+- [Public-review report](docs/m3/CO3133_A3_M3_Public_Review.pdf)
+- [M3 documentation](docs/m3/README.md)
+- [Experimental results](results/m3/README.md)
+- [M3 source code](m2m3/m3/README.md)
+- [AI usage disclosure](AI_USAGE.md)
+
+The Gradio demo has been validated locally with original checkpoints.
+It has not been publicly deployed. Raw crisis media, checkpoints and
+internal case galleries are excluded from this publication.
+
+#### Remaining milestones
+
+- M2 deadline: 25 November 2026.
+- M3 deadline: 2 December 2026, 23:59 GMT+7.
+- Pending: final academic review, licensing/privacy review,
+  GitHub publication, landing-page update, video and LMS submission.
 
 ### Publication and exclusions
 

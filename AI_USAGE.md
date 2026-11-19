@@ -47,3 +47,24 @@ This section adds *executed* M2 work to the historical M1 disclosure above. It d
 | Verification sources | M1 `DATASET_LOCK.json`/dataset documentation; pinned QCRI and third-party mirror references; `artifacts/m2/runs/primary/` (nine run JSONs, predictions, trained-head checkpoints), `results/m2_dev/`, `artifacts/m2/feature_metadata.json`, and the CO3133 handbook. |
 
 **Observed M2 outcome (development only):** image-only macro-F1 0.5746 ± 0.0068; text-only 0.6811 ± 0.0016; concatenation 0.8116 ± 0.0041, all means ± sample SD over seeds 42/43/44. No M3 improved model, ablation, or held-out test results are claimed. Original CrisisMMD agreed-label archive equivalence remains unverified. The report uses student-run measurements, not synthetic smoke metrics.
+
+
+## M3 supplement — executed November 2026
+
+| Mandatory field | M3 record |
+|---|---|
+| Tool | OpenAI ChatGPT / ChatGPT Work assistance; exact underlying model/build for each historical interaction is not independently verified. |
+| Member | Assignment 3 lead, as identified in the M1/M2 disclosures. |
+| Stage | November 2026, M3 evaluation, ablation, qualitative analysis, report and presentation preparation. |
+| Purpose | Assistance with Python and PowerShell scripts, debugging, result interpretation, visualization, Gradio demonstration, academic writing and presentation preparation. |
+| Affected outputs | Local M3 evaluation and analysis scripts, Gradio demo, figures, report drafts, slides and publication documentation. |
+| Representative requests | Analyze gated fusion versus concatenation, inspect ablation and latency, review qualitative disagreements, prepare a checkpoint-based Gradio demo, and draft the M3 report and presentation. These are summaries, not verbatim transcripts. |
+| Verification | The student executed the local scripts, checked saved experiment outputs, validated dataset integrity and tested checkpoint inference. Independent final academic review and publication approval remain the student's responsibility. |
+
+The reported experimental results originate from saved model outputs,
+not AI-generated synthetic scores. ChatGPT assistance does not establish
+independent replication of the original GPU experiments.
+
+The internal presentation contains original crisis-related image examples
+and is not cleared for public redistribution. No GitHub push,
+LMS submission or hosted Gradio deployment is claimed by this section.

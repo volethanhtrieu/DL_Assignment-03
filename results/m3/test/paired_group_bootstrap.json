@@ -1,0 +1,26 @@
+{
+  "comparison": "gated_minus_concat",
+  "clusters": 949,
+  "replicates_per_seed": 500,
+  "rows": [
+    {
+      "seed": 42,
+      "observed_delta_macro_f1": 0.0066430033313019665,
+      "group_bootstrap_ci95_low": -0.024473448396006327,
+      "group_bootstrap_ci95_high": 0.036857230253729355
+    },
+    {
+      "seed": 43,
+      "observed_delta_macro_f1": -0.01954497164744673,
+      "group_bootstrap_ci95_low": -0.05196968067415527,
+      "group_bootstrap_ci95_high": 0.005309479580642758
+    },
+    {
+      "seed": 44,
+      "observed_delta_macro_f1": 0.019087524081962015,
+      "group_bootstrap_ci95_low": -0.006415039678505832,
+      "group_bootstrap_ci95_high": 0.048376755165041634
+    }
+  ],
+  "caution": "Descriptive CIs on fixed custom test; multiple seeds share the same sample groups."
+}
