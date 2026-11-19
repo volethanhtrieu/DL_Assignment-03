@@ -19,7 +19,7 @@ M1 dataset validation and remediation are preserved. M2 completed
 nine development-only runs. M3 completed local evaluation of five
 model configurations across three seeds, fusion ablation, inference
 benchmarking, gate analysis and checkpoint-based Gradio verification.
-GitHub publication, video and LMS submission remain separate actions.
+M3 GitHub publication completed on 19 November 2026. Video and LMS submission remain separate actions.
 
 - [Assignment page](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/assignment-03/index.html) · [Main landing page](https://volethanhtrieu.github.io/Deep-Learning-project-main-page/). These are deployment destinations; actual live verification is recorded in the publication checklist.
 - **M1 report:** [PDF](docs/m1/CO3133_Assignment%203_M1_Report.pdf) · [LaTeX source](docs/m1/CO3133_Assignment%203_M1_Report.tex) (academic LaTeX layout; M1 scope and dataset unchanged).
@@ -107,8 +107,8 @@ internal case galleries are excluded from this publication.
 
 - M2 deadline: 25 November 2026.
 - M3 deadline: 2 December 2026, 23:59 GMT+7.
-- Pending: final academic review, licensing/privacy review,
-  GitHub publication, landing-page update, video and LMS submission.
+- Published: Assignment 3 commit `26444f5` and landing-page commit `41d8479`. Both GitHub Pages locations passed live content verification on 19 November 2026.
+- Pending: video, LMS submission, and rights/privacy clearance for unreleased presentation assets.
 
 ### Publication and exclusions
 

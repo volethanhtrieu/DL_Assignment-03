@@ -15,8 +15,9 @@ The dataset protocol is filtered_original, with 6,001 training,
 
 ## Publication status
 
-The manuscript is a review candidate, not evidence of LMS submission
-or completed public release.
+The public-review manuscript was published to the Assignment 3
+repository in commit `26444f5` on 19 November 2026.
+Publication does not establish LMS submission or instructor approval.
 
 The internal presentation and original crisis images are excluded
 pending a rights and privacy review.
@@ -24,5 +25,7 @@ pending a rights and privacy review.
 ## Reproducibility
 
 The original experiment protocol and historical M1/M2 artifacts
-remain preserved in this repository. M3 source and aggregated
-results will be incorporated after publication review.
+remain preserved in this repository. M3 source is published under
+`m2m3/m3/`, with selected aggregate results under `results/m3/`.
+Raw crisis media, internal case galleries and M3 checkpoints
+remain excluded from public distribution.

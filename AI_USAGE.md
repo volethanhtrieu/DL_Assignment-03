@@ -66,5 +66,10 @@ not AI-generated synthetic scores. ChatGPT assistance does not establish
 independent replication of the original GPU experiments.
 
 The internal presentation contains original crisis-related image examples
-and is not cleared for public redistribution. No GitHub push,
-LMS submission or hosted Gradio deployment is claimed by this section.
+and is not cleared for public redistribution.
+
+M3 repository publication succeeded in commit `26444f5`, and the
+shared landing page was updated in commit `41d8479` on
+19 November 2026. Both GitHub Pages locations passed live HTTP
+and content verification. LMS submission and public Gradio
+deployment are not claimed.
